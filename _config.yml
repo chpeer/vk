@@ -30,9 +30,45 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# for Github Pages
+# theme: eliottvincent/bay
+theme: bay_jekyll_theme
 plugins:
   - jekyll-feed
+
+#page layout
+header:
+  pages:
+    - name: Home
+      slug: /     # <-- index.md
+    - name: Blog  # <-- blog.md
+    - name: Whatever  # <-- about.md
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: yourmail@domain.com
+      link: mailto:yourmail@domain.com
+    - name: WeChat
+      value: YourWeChatUsername
+      link: "#"
+  follow:
+    - name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    - name: Facebook
+      link: http://facebook.com/YourFacebookUsername
+    - name: LinkedIn
+      link: http://linkedin.com/in/YourLinkedInUsername
+    - name: GitHub
+      link: http://github.com/YourGitHubUsername
+    - name: Dribbble
+      link: https://dribbble.com/YourDribbbleUsername
+    - name: Weibo
+      link: http://weibo.com/u/YourWeiboUsername
+    - name: RSS
+      link: /feed.xml
 
 # Exclude from processing.
 # The following items will not be processed, by default.

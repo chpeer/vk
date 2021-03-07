@@ -18,57 +18,40 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: "Verena Krause, Ph.D | Assistant Professor of Organisational Behaviour, University College London"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Dr. Verena Krause, Assistant Professor of Organisational Behaviour at University College London, UK
+  Creativity research, consequences of creativity
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#url: "https://www.vkrause.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
 
 # Build settings
 # for Github Pages
 # theme: eliottvincent/bay
 theme: bay_jekyll_theme
-plugins:
-  - jekyll-feed
 
 #page layout
 header:
   pages:
     - name: Home
       slug: /     # <-- index.md
-    - name: Blog  # <-- blog.md
-    - name: Whatever  # <-- about.md
+    - name: Research  # <-- research.md
+    - name: Teaching  # <-- teaching.md
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+      value: v.krause@ucl.ac.uk
+      link: mailto:v.krause@ucl.ac.uk
   follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
-    - name: RSS
-      link: /feed.xml
+      link: https://uk.linkedin.com/in/verena-krause-895a874
+    - name: Google Scholar
+      link: https://scholar.google.com/citations?user=BxCCm4cAAAAJ&hl=en
+    - name: Research Gate
+      link: https://www.researchgate.net/profile/Verena-Krause
 
 # Exclude from processing.
 # The following items will not be processed, by default.

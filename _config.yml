@@ -27,10 +27,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 title_short: "Verena Krause, Ph.D"
 
+sass:
+  sass_dir: ./assets/css
+
+plugins:
+  - jekyll-remote-theme
 # Build settings
 # for Github Pages
-# theme: eliottvincent/bay
-theme: bay_jekyll_theme
+remote_theme: chpeer/bay
+#theme: bay_jekyll_theme
 
 #page layout
 header:

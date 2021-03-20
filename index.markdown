@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /media/krause_verena.jpg
+  src: /assets/img/profile-pic.jpg
   alt: website picture
 ---
 

@@ -10,5 +10,5 @@ Verena Krause is an Assistant Professor (Lecturer) at the UCL School of Manageme
 </p>
 
 <p>
-Verena researches the conditions necessary for employees to be creative, as well as the expected and unexpected consequences of engaging in creative work. Her research has been published in the Journal of Experimental Social Psychology, Research in Organizational Behavior, and Organizational Behavior and Human Decision Processes. Verena is a member of the Academy of Management and the Society for Personality and Social Psychology.
+Verena researches the conditions that allow employees to be creative, as well as the psychological consequences of engaging in creative work. Her research has been published in the Journal of Experimental Social Psychology, Research in Organizational Behavior, and Organizational Behavior and Human Decision Processes. Verena is a member of the Academy of Management and the Society for Personality and Social Psychology.
 </p>
